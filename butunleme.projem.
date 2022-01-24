@@ -1,0 +1,18 @@
+#kaynak:https://www.yazilimaktif.com/python-yeni-baslayanlar-icin-ornek-projeler/
+isim1=input("İSMİNİZ: ")
+isim2=input("SEVGİLİNİZİN İSMİ: ")
+#len fonksiyonu ile isimlerin uzunluklarını alıyoruz.
+aşk=len(isim1) + len(isim2)
+if len(isim1) > len(isim2) :
+    aşk-=5
+else : 
+    aşk+=3
+    aşk*=52
+    aşk=aşk/(100+len(isim2))
+if aşk>10:
+    aşk=10
+else :
+    aşk=round(aşk)
+#round fonksiyonu ile sonucumuzu yuvarlıyoruz.
+print(isim1, "ve",isim2,"AŞK PUANI",aşk)
+
