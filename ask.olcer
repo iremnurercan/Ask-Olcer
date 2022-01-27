@@ -1,6 +1,11 @@
 #kaynak:https://www.yazilimaktif.com/python-yeni-baslayanlar-icin-ornek-projeler/
 isim1=input("İSMİNİZ: ")
 isim2=input("SEVGİLİNİZİN İSMİ: ")
+burç1=input("BURCUNUZ: ")
+burç2=input("SEVGİLİNİZİN BURCU: ")
+yaş1=int(input("YAŞINIZ: "))
+yaş2=int(input("SEVGİLİNİZİN YAŞI: "))
+fark=yaş1-yaş2
 #len fonksiyonu ile isimlerin uzunluklarını alıyoruz.
 aşk=len(isim1) + len(isim2)
 if len(isim1) > len(isim2) :
@@ -14,5 +19,293 @@ if aşk>10:
 else :
     aşk=round(aşk)
 #round fonksiyonu ile sonucumuzu yuvarlıyoruz.
+if burç1=="Aslan" and burç2=="İkizler" :
+    aşk=aşk+5
+elif burç1=="Aslan" and burç2=="Boğa" :
+    aşk=aşk+5
+elif burç1=="Aslan" and burç2=="Koç" :
+    aşk=aşk+5
+elif burç1=="Aslan" and burç2=="Yengeç" :
+    aşk=aşk+3
+elif burç1=="Aslan" and burç2=="Aslan" :
+    aşk=aşk+4
+elif burç1=="Aslan" and burç2=="Başak" :
+    aşk=aşk+0
+elif burç1=="Aslan" and burç2=="Terazi" :
+    aşk=aşk+4
+elif burç1=="Aslan" and burç2=="Akrep" :
+    aşk=aşk+5
+elif burç1=="Aslan" and burç2=="Yay" :
+    aşk=aşk+4
+elif burç1=="Aslan" and burç2=="Oğlak" :
+    aşk=aşk+0
+elif burç1=="Aslan" and burç2=="Kova" :
+    aşk=aşk+5
+elif burç1=="Aslan" and burç2=="Balık" :
+    aşk=aşk+1
+elif burç1=="Akrep" and burç2=="Koç" :
+    aşk=aşk+0
+elif burç1=="Akrep" and burç2=="Boğa" :
+    aşk=aşk+2
+elif burç1=="Akrep" and burç2=="İkizler" :
+    aşk=aşk+1
+elif burç1=="Akrep" and burç2=="Yengeç" :
+    aşk=aşk+5
+elif burç1=="Akrep" and burç2=="Aslan" :
+    aşk=aşk+5
+elif burç1=="Akrep" and burç2=="Başak" :
+    aşk=aşk+4
+elif burç1=="Akrep" and burç2=="Terazi" :
+    aşk=aşk+3
+elif burç1=="Akrep" and burç2=="Akrep" :
+    aşk=aşk+4
+elif burç1=="Akrep" and burç2=="Yay" :
+    aşk=aşk+0
+elif burç1=="Akrep" and burç2=="Oğlak" :
+    aşk=aşk+2
+elif burç1=="Akrep" and burç2=="Kova" :
+    aşk=aşk+0
+elif burç1=="Akrep" and burç2=="Balık" :
+    aşk=aşk+5
+elif burç1=="Koç" and burç2=="Koç" :
+    aşk=aşk+2
+elif burç1=="Koç" and burç2=="Boğa" :
+    aşk=aşk+3
+elif burç1=="Koç" and burç2=="İkizler" :
+    aşk=aşk+4
+elif burç1=="Koç" and burç2=="Yengeç" :
+    aşk=aşk+0
+elif burç1=="Koç" and burç2=="Aslan" :
+    aşk=aşk+5
+elif burç1=="Koç" and burç2=="Başak" :
+    aşk=aşk+0
+elif burç1=="Koç" and burç2=="Terazi" :
+    aşk=aşk+5
+elif burç1=="Koç" and burç2=="Akrep" :
+    aşk=aşk+0
+elif burç1=="Koç" and burç2=="Yay" :
+    aşk=aşk+5
+elif burç1=="Koç" and burç2=="Oğlak" :
+    aşk=aşk+1
+elif burç1=="Koç" and burç2=="Kova" :
+    aşk=aşk+2
+elif burç1=="Koç" and burç2=="Balık" :
+    aşk=aşk+0
+elif burç1=="Yay" and burç2=="Koç" :
+    aşk=aşk+5
+elif burç1=="Yay" and burç2=="Boğa" :
+    aşk=aşk+0
+elif burç1=="Yay" and burç2=="İkizler" :
+    aşk=aşk+5
+elif burç1=="Yay" and burç2=="Yengeç" :
+    aşk=aşk+1
+elif burç1=="Yay" and burç2=="Aslan" :
+    aşk=aşk+4
+elif burç1=="Yay" and burç2=="Başak" :
+    aşk=aşk+1
+elif burç1=="Yay" and burç2=="Terazi" :
+    aşk=aşk+2
+elif burç1=="Yay" and burç2=="Akrep" :
+    aşk=aşk+0
+elif burç1=="Yay" and burç2=="Yay" :
+    aşk=aşk+4
+elif burç1=="Yay" and burç2=="Oğlak" :
+    aşk=aşk+0
+elif burç1=="Yay" and burç2=="Kova" :
+    aşk=aşk+5
+elif burç1=="Yay" and burç2=="Balık" :
+    aşk=aşk+0
+elif burç1=="Boğa" and burç2=="Koç" :
+    aşk=aşk+3
+elif burç1=="Boğa" and burç2=="Terazi" :
+    aşk=aşk+4
+elif burç1=="Boğa" and burç2=="Boğa" :
+    aşk=aşk+3
+elif burç1=="Boğa" and burç2=="Akrep" :
+    aşk=aşk+2
+elif burç1=="Boğa" and burç2=="İkizler" :
+    aşk=aşk+1
+elif burç1=="Boğa" and burç2=="Yay" :
+    aşk=aşk+0
+elif burç1=="Boğa" and burç2=="Yengeç" :
+    aşk=aşk+4
+elif burç1=="Boğa" and burç2=="Oğlak" :
+    aşk=aşk+5
+elif burç1=="Boğa" and burç2=="Aslan" :
+    aşk=aşk+5
+elif burç1=="Boğa" and burç2=="Kova" :
+    aşk=aşk+0
+elif burç1=="Boğa" and burç2=="Başak" :
+    aşk=aşk+2
+elif burç1=="Boğa" and burç2=="Balık" :
+    aşk=aşk+3
+elif burç1=="İkizler" and burç2=="Koç" :
+    aşk=aşk+4
+elif burç1=="İkizler" and burç2=="Terazi" :
+    aşk=aşk+5
+elif burç1=="İkizler" and burç2=="Oğlak" :
+    aşk=aşk+0
+elif burç1=="İkizler" and burç2=="Boğa" :
+    aşk=aşk+1
+elif burç1=="İkizler" and burç2=="Aslan" :
+    aşk=aşk+5
+elif burç1=="İkizler" and burç2=="Akrep" :
+    aşk=aşk+1
+elif burç1=="İkizler" and burç2=="Kova" :
+    aşk=aşk+3
+elif burç1=="İkizler" and burç2=="İkizler" :
+    aşk=aşk+5
+elif burç1=="İkizler" and burç2=="Başak" :
+    aşk=aşk+2
+elif burç1=="İkizler" and burç2=="Yay" :
+    aşk=aşk+5
+elif burç1=="İkizler" and burç2=="Yengeç" :
+    aşk=aşk+2
+elif burç1=="İkizler" and burç2=="Balık" :
+    aşk=aşk+1
+elif burç1=="Oğlak" and burç2=="Koç" :
+    aşk=aşk+1
+elif burç1=="Oğlak" and burç2=="Boğa" :
+    aşk=aşk+5
+elif burç1=="Oğlak" and burç2=="İkizler" :
+    aşk=aşk+0
+elif burç1=="Oğlak" and burç2=="Terazi" :
+    aşk=aşk+5
+elif burç1=="Oğlak" and burç2=="Yengeç" :
+    aşk=aşk+5
+elif burç1=="Oğlak" and burç2=="Aslan" :
+    aşk=aşk+0
+elif burç1=="Oğlak" and burç2=="Başak" :
+    aşk=aşk+5
+elif burç1=="Oğlak" and burç2=="Akrep" :
+    aşk=aşk+2
+elif burç1=="Oğlak" and burç2=="Yay" :
+    aşk=aşk+0
+elif burç1=="Oğlak" and burç2=="Oğlak" :
+    aşk=aşk+4
+elif burç1=="Oğlak" and burç2=="Kova" :
+    aşk=aşk+3
+elif burç1=="Oğlak" and burç2=="Balık" :
+    aşk=aşk+3
+elif burç1=="Yengeç" and burç2=="Koç" :
+    aşk=aşk+0
+elif burç1=="Yengeç" and burç2=="Boğa" :
+    aşk=aşk+4
+elif burç1=="Yengeç" and burç2=="İkizler" :
+    aşk=aşk+2
+elif burç1=="Yengeç" and burç2=="Yengeç" :
+    aşk=aşk+4
+elif burç1=="Yengeç" and burç2=="Aslan" :
+    aşk=aşk+3
+elif burç1=="Yengeç" and burç2=="Başak" :
+    aşk=aşk+3
+elif burç1=="Yengeç" and burç2=="Terazi" :
+    aşk=aşk+3
+elif burç1=="Yengeç" and burç2=="Akrep" :
+    aşk=aşk+5
+elif burç1=="Yengeç" and burç2=="Yay" :
+    aşk=aşk+1
+elif burç1=="Yengeç" and burç2=="Oğlak" :
+    aşk=aşk+5
+elif burç1=="Yengeç" and burç2=="Kova" :
+    aşk=aşk+0
+elif burç1=="Yengeç" and burç2=="Balık" :
+    aşk=aşk+5
+elif burç1=="Kova" and burç2=="Koç" :
+    aşk=aşk+2
+elif burç1=="Kova" and burç2=="Boğa" :
+    aşk=aşk+0
+elif burç1=="Kova" and burç2=="İkizler" :
+    aşk=aşk+3
+elif burç1=="Kova" and burç2=="Yengeç" :
+    aşk=aşk+0
+elif burç1=="Kova" and burç2=="Aslan" :
+    aşk=aşk+5
+elif burç1=="Kova" and burç2=="Başak" :
+    aşk=aşk+5
+elif burç1=="Kova" and burç2=="Terazi" :
+    aşk=aşk+4
+elif burç1=="Kova" and burç2=="Akrep" :
+    aşk=aşk+0
+elif burç1=="Kova" and burç2=="Yay" :
+    aşk=aşk+5
+elif burç1=="Kova" and burç2=="Oğlak" :
+    aşk=aşk+3
+elif burç1=="Kova" and burç2=="Kova" :
+    aşk=aşk+4
+elif burç1=="Kova" and burç2=="Balık" :
+    aşk=aşk+1
+elif burç1=="Terazi" and burç2=="Koç" :
+    aşk=aşk+5
+elif burç1=="Terazi" and burç2=="Boğa" :
+    aşk=aşk+4
+elif burç1=="Terazi" and burç2=="İkizler" :
+    aşk=aşk+5
+elif burç1=="Terazi" and burç2=="Yengeç" :
+    aşk=aşk+3
+elif burç1=="Terazi" and burç2=="Aslan" :
+    aşk=aşk+4
+elif burç1=="Terazi" and burç2=="Başak" :
+    aşk=aşk+2
+elif burç1=="Terazi" and burç2=="Terazi" :
+    aşk=aşk+4
+elif burç1=="Terazi" and burç2=="Akrep" :
+    aşk=aşk+3
+elif burç1=="Terazi" and burç2=="Yay" :
+    aşk=aşk+2
+elif burç1=="Terazi" and burç2=="Oğlak" :
+    aşk=aşk+5
+elif burç1=="Terazi" and burç2=="Kova" :
+    aşk=aşk+4
+elif burç1=="Terazi" and burç2=="Balık" :
+    aşk=aşk+0
+elif burç1=="Başak" and burç2=="Koç" :
+    aşk=aşk+0
+elif burç1=="Başak" and burç2=="Boğa" :
+    aşk=aşk+2
+elif burç1=="Başak" and burç2=="İkizler" :
+    aşk=aşk+2
+elif burç1=="Başak" and burç2=="Yengeç" :
+    aşk=aşk+3
+elif burç1=="Başak" and burç2=="Aslan" :
+    aşk=aşk+0
+elif burç1=="Başak" and burç2=="Başak" :
+    aşk=aşk+5
+elif burç1=="Başak" and burç2=="Terazi" :
+    aşk=aşk+2
+elif burç1=="Başak" and burç2=="Akrep" :
+    aşk=aşk+4
+elif burç1=="Başak" and burç2=="Yay" :
+    aşk=aşk+1
+elif burç1=="Başak" and burç2=="Oğlak" :
+    aşk=aşk+5
+elif burç1=="Başak" and burç2=="Kova" :
+    aşk=aşk+5
+elif burç1=="Başak" and burç2=="Balık" :
+    aşk=aşk+0
+elif burç1=="Balık" and burç2=="Koç" :
+    aşk=aşk+0
+elif burç1=="Balık" and burç2=="Boğa" :
+    aşk=aşk+3
+elif burç1=="Balık" and burç2=="İkizler" :
+    aşk=aşk+1
+elif burç1=="Balık" and burç2=="Yengeç" :
+    aşk=aşk+5
+elif burç1=="Balık" and burç2=="Aslan" :
+    aşk=aşk+1
+elif burç1=="Balık" and burç2=="Başak" :
+    aşk=aşk+0
+elif burç1=="Balık" and burç2=="Terazi" :
+    aşk=aşk+0
+elif burç1=="Balık" and burç2=="Akrep" :
+    aşk=aşk+5
+elif burç1=="Balık" and burç2=="Yay" :
+    aşk=aşk+0
+elif burç1=="Balık" and burç2=="Oğlak" :
+    aşk=aşk+3
+elif burç1=="Balık" and burç2=="Kova" :
+    aşk=aşk+1
+elif burç1=="Balık" and burç2=="Balık" :
+    aşk=aşk+4
 print(isim1, "ve",isim2,"AŞK PUANI",aşk)
 
