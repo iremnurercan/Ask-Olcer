@@ -307,5 +307,27 @@ elif burç1=="Balık" and burç2=="Kova" :
     aşk=aşk+1
 elif burç1=="Balık" and burç2=="Balık" :
     aşk=aşk+4
+if (fark>=10) :
+    aşk=aşk+0
+elif (fark==9) :
+    aşk=aşk+1
+elif (fark==8) :
+    aşk=aşk+1
+elif (fark==7) :
+    aşk=aşk+2
+elif (fark==6) :
+    aşk=aşk+2
+elif (fark==5) :
+    aşk=aşk+3
+elif (fark==4) :
+    aşk=aşk+3
+elif (fark==3) :
+    aşk=aşk+3
+elif (fark==2) :
+    aşk=aşk+4
+elif (fark==1) :
+    aşk=aşk+4
+elif(fark==0) :
+    aşk=aşk+5
 print(isim1, "ve",isim2,"AŞK PUANI",aşk)
 
